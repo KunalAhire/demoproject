@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.border{
+  background: linear-gradient(90deg, #0F497E 0%, #53CAF5 109.3%);
+  width: 50%;
+  height: 5px;
+}
+.footerBorder{
+  background: linear-gradient(90deg, #396498 0%, #fefefe 109.3%);
+  height: 5px;
+  width: 100px;
+}
+.footerBorderInverse{
+  background: linear-gradient(90deg, #ffffff 0%, #396498 109.3%);
+  height: 5px;
+  width: 100px;
+}
+.aboutback{
+  background: url('https://static.wixstatic.com/media/f2c088_60921be8043e46eaad450b27ceffaa05~mv2.png/v1/fill/w_1346,h_1925,al_c/Main%20Page%20Background%201925.png');
+}
+.blackBack{
+  background-color: black;
+  width: 100%;
+  height: 150px;
+  opacity: 0.7;
+  margin: 0;
+  padding: 0;
+}
+
+/* .Vision component */
+
+.Vision{
+ background: url('https://i.pinimg.com/originals/bf/74/89/bf74890ad00b3d9e24513833e0f2b592.png');
+ background-size: cover;
+ width: 100%;
+ height: 250px;
+ position: relative;
+}
+.VisionText{
+  width: 98%;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 15px;
+  padding: 0 50px;
+  font-weight: 600;
+  background: rgba(4, 4, 4, 0.5)
+}
+/* .Vision ends */
+
+/*Messege*/
+.message{
+  background: url('https://static.wixstatic.com/media/f2c088_60921be8043e46eaad450b27ceffaa05~mv2.png/v1/fill/w_1346,h_1925,al_c/Main%20Page%20Background%201925.png');
+}
